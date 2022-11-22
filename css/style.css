@@ -1,7 +1,10 @@
 @import url(resret.css);
 
+html {
+    scroll-behavior: smooth;
+}
 body {
-    background: black;
+    background: black;   
 }
 
 
@@ -21,11 +24,14 @@ ul {
 li {
     border: 2px rgb(137, 3, 3) solid;
     margin: 5px;
+    
 }
 
 a {
     text-decoration: none;
     color: black;
+    scroll-behavior: smooth;
+    
 }
 
 a:hover {
