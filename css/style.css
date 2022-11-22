@@ -1,0 +1,91 @@
+@import url(resret.css);
+
+body {
+    background: black;
+}
+
+
+ul {
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 6px;
+    font-size: 36px;
+    line-height: 50px;
+    position: fixed;
+    left: 200px;
+    top: 175px;
+    background-color: gold;
+    padding: 3px;
+}
+
+li {
+    border: 2px rgb(137, 3, 3) solid;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: yellow;
+    background: black;
+}
+
+
+
+h1,
+h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(137, 3, 3);
+    text-decoration: underline;
+}
+
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    width: 1200px;
+    margin: 0 auto;
+    background: goldenrod
+}
+
+
+.boximag {
+    display: inline-block;
+    position: relative;
+
+}
+
+.boximag>h2 {
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.text {
+    top: 50%;
+    transform: translateY(-50%);
+    min-height: 250px;
+    position: absolute;
+    text-align: center;
+    color: rgb(250, 254, 254);
+    line-height: 30px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.355);
+    display: none;
+}
+
+.boximag:hover .text {
+    display: block;
+}
